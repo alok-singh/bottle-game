@@ -1,0 +1,1 @@
+export const MAX_LIQUID_COUNT = 4;
