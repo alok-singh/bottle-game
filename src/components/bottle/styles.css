@@ -9,12 +9,7 @@
 
 .bottle .bottle-cap {
   width: 50px;
-  background: linear-gradient(
-    to right,
-    rgb(255 255 255),
-    rgb(99 99 99 / 40%) 10%,
-    rgba(99, 99, 99, 1)
-  );
+  background: linear-gradient(to right, rgb(255 255 255), rgb(99 99 99 / 40%) 10%, rgba(99, 99, 99, 1));
   height: 20px;
   display: inline-block;
   border-radius: 5px 5px 0px 0px;

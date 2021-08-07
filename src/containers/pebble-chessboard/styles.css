@@ -1,0 +1,55 @@
+.pebble-chessboard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pebble-chessboard .chess-board {
+  border: 1px solid #525252;
+  box-shadow: 0px 3px 10px #525252;
+}
+
+.pebble-chessboard .row .cell {
+  width: 90px;
+  height: 90px;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pebble-chessboard .row {
+  display: flex;
+}
+
+.pebble-chessboard .row:nth-child(2n + 1) .cell:nth-child(2n) {
+  background: #fff;
+}
+
+.pebble-chessboard .row:nth-child(2n) .cell:nth-child(2n + 1) {
+  background: #fff;
+}
+
+.pebble-chessboard .row .cell.filled::after {
+  content: ' ';
+  height: 50%;
+  width: 50%;
+  background: #79b148;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pebble-chessboard .chess-board .row:nth-child(7) .cell:nth-child(1) {
+  background: #ffb1bead;
+}
+
+.pebble-chessboard .chess-board .row:nth-child(8) .cell:nth-child(1) {
+  background: #ffb1bead;
+}
+
+.pebble-chessboard .chess-board .row:nth-child(8) .cell:nth-child(2) {
+  background: #ffb1bead;
+}
