@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Bottle from '../../components/bottle';
 import { deepCopy } from '../../utils/deepCopyObject';
 import { config, MAX_LIQUID_COUNT } from '../../data/config';
-import { solvePuzzel } from '../../data/autoSolve';
+// import { solvePuzzel } from '../../data/autoSolve';
 import { isAllBottleHaveOnlyOneColor, isAllBottleEmpty } from '../../utils/bottleUtils';
 
 import backgroundImage from '../../assets/texture-background.jpg';

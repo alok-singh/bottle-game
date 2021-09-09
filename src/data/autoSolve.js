@@ -1,5 +1,5 @@
-import { isAllBottleHaveOnlyOneColor } from '../utils/bottleUtils';
-import { deepCopy } from '../utils/deepCopyObject';
+// import { isAllBottleHaveOnlyOneColor } from '../utils/bottleUtils';
+// import { deepCopy } from '../utils/deepCopyObject';
 
 export const getTopLiquidId = (bottle) => {
   return bottle.liquidList[0].color.id;
@@ -24,6 +24,6 @@ export const createState = (bottleList) => {
 };
 
 export const solvePuzzel = (bottleList) => {
-  const visited = {};
+  // const visited = {};
   console.log(createState(bottleList));
 };

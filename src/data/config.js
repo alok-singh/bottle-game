@@ -44,7 +44,7 @@ const generateRandomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
-const getRandomColor = () => {
+export const getRandomColor = () => {
   const randomIndex = generateRandomNumber(0, colors.length - 1);
   return colors[randomIndex];
 };
